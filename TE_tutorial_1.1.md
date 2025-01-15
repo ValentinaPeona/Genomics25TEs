@@ -7,7 +7,7 @@
 
 ## Table of contents
 - [Introduction](#Introduction)
-- [De-novo creation of a repeat library - RepeatModeler2](#De-novo creation of a repeat library - RepeatModeler2)
+- RepeatModeler2](#RepeatModeler2)
 - [Run RepeatMasker](#RepeatMasker)
 - [Create a repeat landscape](#RepeatLandscape)
 - [TE databases](#Databases)
