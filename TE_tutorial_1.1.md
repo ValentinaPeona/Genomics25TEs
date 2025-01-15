@@ -7,7 +7,7 @@
 
 ## Table of contents
 - [Introduction](#Introduction)
-- RepeatModeler2](#RepeatModeler2)
+- [Run RepeatModeler2](#RepeatModeler2)
 - [Run RepeatMasker](#RepeatMasker)
 - [Create a repeat landscape](#RepeatLandscape)
 - [TE databases](#Databases)
