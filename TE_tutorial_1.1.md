@@ -252,6 +252,17 @@ Look at the output files of RepeatMasker (especially the `.tbl` and `.out` files
 
 🔴 Can you hypothesise what it means when two or more rows share the same ID number (last column) in the `.out` file?
 
+<details>
+    <summary><strong>Answers</strong></summary>
+
+<strong>What's the difference between `-species` and `-lib` options?</strong> The species option will enable you to use directly the TE libraries included in the installation of RepeatMasker. The lib option takes any custom library provided by the user. For model organisms, the species option is preferable because their TE libraries have been thouroughly curated and their structure allow RepeatMasker to perform a more detailed search.
+<br>
+<strong>What do all the columns in the `.out` file mean? What does divergence mean?</strong> You can read a detailed description of the RepeatMasker output on its website under the section ["How to read the results"](https://www.repeatmasker.org/webrepeatmaskerhelp.html).
+<br>
+<strong>Can you hypothesise what it means when two or more rows share the same ID number (last column) in the `.out` file?</strong> Sadly, sometimes TEs are broken up in multiple pieces. RepeatMasker tries to identify which fragments belong to the same ancestral TE insertion and labels those fragments with the same ID value.
+<br>
+</details>
+<br>
 
 ## Create a repeat landscape
 
@@ -283,6 +294,17 @@ If for any reason, the above two Perl scripts do not work for you (they really s
 
 🔴 Would you trust the annotation of insertions at very high percentages of divergence? Do you think there is a better way to find them instead of using a homology-based approach like RepeatMasker?
 
+<details>
+    <summary><strong>Answers</strong></summary>
+
+<strong>Can you see what the script takes into consideration to calculate the divergence that RepeatMasker did not before?</strong> The script will take CpG sites into consideration when calculating genetic distances, meaning that those sites will not be considered to not inflate such distance because of hypermutability of those sites. You can always decide to include the CpG sites in the calculation with the option <code>-noCpGmode</code>
+<br>
+<strong>Which repeats have been/are likely active in recent time?</strong> It is usually the case that repeats with low divergence (genetic distance) from the consensus sequence are the most recent and likely the most recently active or currently active. You cannot determine whether they are active from this plot!!! Additional bioinformatic analysis and ideally transposition assay can determine that with more accuracy.
+<br>
+<strong>Would you trust the annotation of insertions at very high percentages of divergence? Do you think there is a better way to find them instead of using a fasta model of consensus sequences?</strong> Consider that high divergence means that a lot of differences occur between the sequence in the genome and your consensus sequence, meaning that at a certain point you could pick up false positive hits. To investigate very old insertions, it is better to use HMM models instead of fasta ones.
+<br>
+</details>
+<br>
 
 ## Databases of known transposable element sequences <a name="Databases"></a>
 
