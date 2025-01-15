@@ -126,8 +126,7 @@ RepeatModeler -database $REF -threads 8 -LTRStruct
 
 </details>
 
-<br>
-:warning: **Warning:** Once you managed to start RepeatModeler2, let it run for a minute or two (or until you lose your patience) to see the very first round of repeat prediction start and then please kill the command with <code>Ctrl + C</code> as we do not have the time to let it finish. You will see that a folder with a name similar to this <code>RM_1962636.MonJan131517222025</code> has been created in your working directory that contains the intermediate files of the RepeatModeler2 pipeline. You can give it a look and then you can jump directly to the final output files of the pipeline.
+:warning: **Warning:** Once you managed to start RepeatModeler2, let it run for a minute or two (or until you lose your patience) to see the very first round of repeat prediction start and then please kill the command with `Ctrl + C` as we do not have the time to let it finish. You will see that a folder with a name similar to this `RM_1962636.MonJan131517222025` has been created in your working directory that contains the intermediate files of the RepeatModeler2 pipeline. You can give it a look and then you can jump directly to the final output files of the pipeline.
 
 :exclamation: Copy the output from the `Outputs` folder to your `Results` folder:
 
