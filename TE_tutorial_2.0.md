@@ -379,14 +379,19 @@ Good luck :D
 
 <p align="center"><figure><img src="./Plots/Plot1.png" /></figure></p>
 
+---
 
 **Plot2**
 
 <p align="center"><figure><img src="./Plots/Plot2.png" /></figure></p>
 
+---
+
 **Plot3**
 
 <p align="center"><figure><img src="./Plots/Plot3.png" /></figure></p>
+
+---
 
 **Plot4**
 
@@ -398,13 +403,19 @@ Good luck :D
 
 <p align="center"><figure><img src="./Plots/Plot5.png" /></figure></p>
 
+---
+
 **Plot6**
 
 <p align="center"><figure><img src="./Plots/Plot6.png" /></figure></p>
 
+---
+
 **Plot7**
 
 <p align="center"><figure><img src="./Plots/Plot7.png" /></figure></p>
+
+---
 
 **Plot8**
 
