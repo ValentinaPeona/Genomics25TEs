@@ -7,7 +7,7 @@
 
 ## Table of contents
 - [Introduction](#Introduction)
-- [Run RepeatModeler2](#RepeatModeler2)
+- [RepeatModeler2](#RepeatModeler2)
 - [Run RepeatMasker](#RepeatMasker)
 - [Create a repeat landscape](#RepeatLandscape)
 - [TE databases](#Databases)
@@ -37,7 +37,7 @@ This tutorial will guide you through the use of these two softwares and at the e
 
 ---
 
-## 1) De-novo creation of a repeat library - RepeatModeler2 <a name="RepeatModeler2"></a>
+## RepeatModeler2 <a name="RepeatModeler2"></a>
 
 Let's start from the beginning and create a library of representative sequences (consensus sequences) for all the types of repetitive elements present in our genome of interest.
 
