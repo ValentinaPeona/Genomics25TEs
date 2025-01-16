@@ -213,7 +213,7 @@ Let's be sure that all our variables are correctly set
 LIB=$OUTDIR/RepeatModeler2/consensi.fa.classified
 ```
 
-As first thing, let's look at the manual of the tool. To do that just call the `RepeatMasker` command and then the `RepeatMasker --help` command (the second prints a very long version of the manual) and read the options. Which options would you use? Below the command I used.
+As first thing, let's look at the manual of the tool. To do that just call the `RepeatMasker -help` command (it prints a very long manual) and explore the options. Which options would you use? Below the command I used.
 
 
 <details>
@@ -231,8 +231,7 @@ RepeatMasker -pa 8 -q -gff -gccalc -a -excln -lib $LIB -dir $OUTDIR/RepeatMasker
 
 </details>
 
-<br>
-:warning: **Warning:** Once you managed to start RepeatMasker, wait a again a couple of minutes for you to see the analysis start but then please kill the command with <code>Ctrl + C</code> as we do not have the time to let it finish.
+:warning: **Warning:** Once you managed to start RepeatMasker, wait a again a couple of minutes for you to see the analysis start but then please kill the command with `Ctrl + C` as we do not have the time to let it finish.
 
 :exclamation: Copy the entire output from the `Outputs` folder to your `Results` folder:
 
