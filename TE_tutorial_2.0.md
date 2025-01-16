@@ -151,7 +151,10 @@ Go to your `Results` folder and list the files present there.
 
 🔴 Do you think this library is complete, non-redundant and contains full-length elements? (Just reflect on this, it is difficult to know at this stage.)
 
+🔴 What types of repeats are found in your library? Use the classified version of the library to answer this.
+
 🔴 Do you think this library contains only transposable elements?
+
 
 <details>
     <summary><strong>Answers</strong></summary>
