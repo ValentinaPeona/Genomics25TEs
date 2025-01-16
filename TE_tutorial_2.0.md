@@ -217,7 +217,16 @@ Let's be sure that all our variables are correctly set
 LIB=$OUTDIR/RepeatModeler2/consensi.fa.classified
 ```
 
-As first thing, let's look at the manual of the tool. To do that just call the `RepeatMasker -help` command (it prints a very long manual) and explore the options. Which options would you use? Below the command I used.
+As first thing, let's look at the manual of the tool. To do that just call the `RepeatMasker -help` command (it prints a very long manual) and explore the options.
+
+You can save the manual in a file and read it from there:
+
+```bash
+RepeatMasker -help &> RMSK_manual
+less RMSK_manual
+```
+
+Which options would you use? Below the command I used.
 
 
 <details>
