@@ -8,7 +8,7 @@
 ## Table of contents
 - [Introduction](#Introduction)
 - [RepeatModeler2](#RepeatModeler2)
-- [Run RepeatMasker](#RepeatMasker)
+- [RepeatMasker](#RepeatMasker)
 - [Create a repeat landscape](#RepeatLandscape)
 - [TE databases](#Databases)
 - [TE Hub](#TEHub)
@@ -207,7 +207,7 @@ For the scope of this tutorial, we are going to use the library as it is but for
 
 ---
 
-## 2) Annotation of transposable elements - RepeatMasker <a name="RepeatMasker"></a>
+## RepeatMasker <a name="RepeatMasker"></a>
 
 Now that we have a new repeat library for our genome of interest, we can finally find where the transposable element insertions are and in what abundance with RepeatMasker!
 
