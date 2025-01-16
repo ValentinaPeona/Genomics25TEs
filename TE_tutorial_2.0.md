@@ -190,7 +190,8 @@ Most likely, the repeat library just produced here does not meet all these crite
 
 
 </details>
-<br>
+
+
 The library produced here contains quite a lot of consensus sequences but possibly it is not of the best quality.
 
 For the scope of this tutorial, we are going to use the library as it is but for more detailed analyses I warmly recommend to curate the library manually with the help of some tools (eg., TE-Aid) or using longer pipelines that build on top of RepeatModeler2 output and automatically curate your consensus sequences. Automatic curation and classification are great but be aware that they are not perfect and at least a general knowledge of the manual curation process is recommended before trusting the result of such pipeline as it is.
